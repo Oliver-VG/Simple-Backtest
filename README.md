@@ -14,17 +14,19 @@ Data Acquisition: Historical price data via yfinance
 Signal Generation:
 - Buy when 50-day MA crosses above 200-day MA
 - Sell when 50-day MA crosses below 200-day MA
+
 Performance Metrics:
 - Sharpe ratio
 - Final cumulative returns
+
 Visualization:
 Equity curve comparison (Strategy vs. Buy-and-Hold)
 
 Libraries Used
-pandas
-numpy
-matplotlib
-yfinance
+- pandas
+- numpy
+- matplotlib
+- yfinance
 
 Install requirements with:
 bash:
@@ -40,9 +42,9 @@ cd simple-backtest
 ma_crossover_backtest.ipynb
 
 4. Modify parameters easily:
-Change symbol, start_date, end_date
-Adjust short_window and long_window for different MA strategies
-Tweak transaction cost assumptions
+- Change symbol, start_date, end_date
+- Adjust short_window and long_window for different MA strategies
+- Tweak transaction cost assumptions
 
 About
 This project was created as a demonstration of Python backtesting skills for quant internships and strategy research roles.
