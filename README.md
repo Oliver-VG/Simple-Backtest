@@ -12,11 +12,11 @@ Visualization of cumulative returns compared to a buy-and-hold strategy
 Project Structure
 Data Acquisition: Historical price data via yfinance
 Signal Generation:
-Buy when 50-day MA crosses above 200-day MA
-Sell when 50-day MA crosses below 200-day MA
+- Buy when 50-day MA crosses above 200-day MA
+- Sell when 50-day MA crosses below 200-day MA
 Performance Metrics:
-Sharpe ratio
-Final cumulative returns
+- Sharpe ratio
+- Final cumulative returns
 Visualization:
 Equity curve comparison (Strategy vs. Buy-and-Hold)
 
@@ -33,7 +33,7 @@ pip install pandas numpy matplotlib yfinance
 Usage
 1. Clone the repository:
 bash:
-git clone https://github.com/Oliver-V8/simple-backtest.git
+git clone https://github.com/Oliver-VG/Simple-Backtest
 cd simple-backtest
 
 3. Run the Jupyter Notebook:
