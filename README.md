@@ -33,13 +33,13 @@ pip install pandas numpy matplotlib yfinance
 Usage
 1. Clone the repository:
 bash:
-git clone https://github.com/your-username/ma-crossover-backtest.git
-cd ma-crossover-backtest
+git clone https://github.com/Oliver-V8/simple-backtest.git
+cd simple-backtest
 
-2. Run the Jupyter Notebook:
+3. Run the Jupyter Notebook:
 ma_crossover_backtest.ipynb
 
-3. Modify parameters easily:
+4. Modify parameters easily:
 Change symbol, start_date, end_date
 Adjust short_window and long_window for different MA strategies
 Tweak transaction cost assumptions
